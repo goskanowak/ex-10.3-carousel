@@ -10,7 +10,7 @@ $(function(){
     };
 
     function changeSlide(){
-            carouselList.animate({'marginLeft':-500}, 500, moveFirstSlide);
+            carouselList.animate({'marginLeft':-700}, 1000, moveFirstSlide);
     };     
     
     setInterval(changeSlide, 3000);
